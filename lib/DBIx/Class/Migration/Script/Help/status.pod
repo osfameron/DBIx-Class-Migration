@@ -53,7 +53,7 @@ The developer sandbox database that we are reading status information from.
 Optional.
 
 Connection information for the database you are checking the status of.  You
-will likely use this when in an enviroment above development and you are no 
+will likely use this when in an environment above development and you are no 
 longer using a database sandbox.  C<dsn> is as defined in L<DBI>.
 
 =head2 target_dir (D)

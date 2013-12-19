@@ -371,7 +371,8 @@ Please remember that you can generate deployment files for database types
 other than the one you've defined in L</dsn>, however since different databases
 enforce constraints differently it would not be impossible to generate fixtures
 that can be loaded by one database but not another.  Therefore I recommend
-always generated fixtures from a database that is consistent across enviroments.
+always generated fixtures from a database that is consistent across
+environments.
 
 Uses L<MooseX::Attribute::ENV> to let you populate values from %ENV.  Uses key
 DBIC_MIGRATION_DSN

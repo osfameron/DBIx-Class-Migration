@@ -15,7 +15,7 @@ consider this application to represent overall best practices.
 
 Reviewing the documentation for L<Catalyst::Test> would be valuable, as well as
 L<Catalyst::Plugin::ConfigLoader> for a refresher on the idea of localized and
-enviroment specific configurations.
+environment specific configurations.
 
 =head1 Bootrap a basic Catalyst application
 
@@ -315,7 +315,7 @@ set now for running the tutorial)
     Deployed database is 3
 
 And you can reset the data from fixtures, dump new ones, etc.  Plus, if you
-created an enviroment specific configuration (such as if you have a file
+created an environment specific configuration (such as if you have a file
 C<share/etc/musicbase_web_qa.pl> that points to your QA datase) you can leverage
 you L<Catalyst> based configuration to make your life a bit easier.  For
 example:
@@ -323,7 +323,7 @@ example:
     CATALYST_CONFIG_LOCAL_SUFFIX=qa perl -Ilib \
       lib/MusicBase/Schema/MigrationScript.pm status
 
-Would grab the connected schema for your qa enviroment specific configuration
+Would grab the connected schema for your qa environment specific configuration
 and give you the status on that (assuming you can ping it from your logged
 in terminal).  This integration is very useful since you can use whatever your
 L<Catalyst> application thinks is the current database as the target of the
@@ -367,7 +367,7 @@ want to write tests that check your actual web pages (for example you want to
 test things like if a page shows the correct results and if web forms work)
 you need to manage that a bit differently.  Here's what I do:
 
-First, create a enviroment specific configuration for testing:
+First, create a environment specific configuration for testing:
 
     touch share/etc/musicbase_web_test.pl
 

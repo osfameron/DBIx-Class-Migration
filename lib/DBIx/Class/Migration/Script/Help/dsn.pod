@@ -18,7 +18,7 @@ String that represents a valid dsn as defined in L<DBI>.
 
 This should be the C<dsn> for the database we connect to for deploying
 ddl, ddl changes and fixtures.  Uasually used with the C<user> and C<password>
-options for when you are running in an enviroment above development and you are
+options for when you are running in an environment above development and you are
 no longer using a developer level database sandbox.
 
 When required you can also populate this option with the %ENV variables
